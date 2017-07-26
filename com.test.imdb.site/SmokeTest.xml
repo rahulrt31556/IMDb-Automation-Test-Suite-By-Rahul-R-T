@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="IMDbWebAuomationChallenge" parallel="none">
+  <test name="Smoke Scenario">
+    <classes>
+      <class name="TestCases.verifyWesternGenreOption"/>
+      <class name="TestCases.VerifyHomePage"/>
+      <class name="TestCases.VerifyTopRatedMoviesPage"/>
+      <class name="TestCases.verifySortingOption"/>
+    </classes>
+  </test> <!-- Smoke Scenario -->
+</suite> <!-- IMDbWebAuomationChallenge -->
